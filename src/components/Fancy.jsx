@@ -5,9 +5,9 @@ import React from 'react';
 // };
 
 const Fancy = ({ text, color }) => (
-    <div style={{ color: color }}>
+    <p style={{ color: color }}>
         {text}
-    </div>
+    </p>
 )
 
 export default Fancy;
