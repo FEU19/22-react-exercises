@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Fancy from './components/Fancy';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// It's possible (but not recommended) to have several components in the same file
+const Armadillo = () => ( <span> poor dillo </span> )
+
+
+const App = () => (
+    <div>
+        <h1>App name</h1>
+        <Armadillo />
+        <Fancy text={'here is some text'}   color={'#89C8C1'} />
+        <Fancy text={'another text'}        color={'#F6C000'} />
+        <Fancy text={'something different'} color={'#6495ED'} />
     </div>
-  );
-}
+);
+
+
 
 export default App;
