@@ -30,3 +30,7 @@ code {
     margin-top: 0px;
     font-size: 0.8em;
 }
+
+.counter button {
+    margin: 0.5em;
+}

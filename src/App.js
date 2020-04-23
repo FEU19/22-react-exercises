@@ -3,6 +3,7 @@ import './App.css';
 import Fancy from './components/Fancy';
 import ThreeSearchResults from './components/ThreeSearchResults';
 import OnOffButton from './components/OnOffButton';
+import Counter from './components/Counter';
 
 // It's possible (but not recommended) to have several components in the same file
 const Armadillo = () => ( <span> poor dillo </span> )
@@ -11,6 +12,8 @@ const Armadillo = () => ( <span> poor dillo </span> )
 const App = () => (
     <div>
         <h1>Exercises</h1>
+        <Counter />
+
         <ThreeSearchResults />
 
         <Armadillo />
